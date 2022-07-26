@@ -11,11 +11,11 @@ app.post('/', (req, res) => {
 });
 
 app.get('/api-kiddies', (req, res) => {
-  res.send(JSON.stringify({what: "My api", why: "because I can", more-examples: "https://github.com/rbeverly/api-kiddies", favorite-things: ["raindrops", "roses", "whiskers", "kittens"]}));
+  res.send(JSON.stringify({what: "My api", why: "because I can", examples: "https://github.com/rbeverly/api-kiddies", favoritethings: ["raindrops", "roses", "whiskers", "kittens"]}));
 });
 
-app.listen(5000, () => {
-  console.log("Running on port 5000.");
+app.listen(5100, () => {
+  console.log("Running on port 5100.");
 });
 
 module.exports = app;
