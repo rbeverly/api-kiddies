@@ -11,7 +11,7 @@
       // Specify which paths will route to a destination using a regex
       // This one sends all paths to index.js for simplicity...
       "src": "/(.*)",
-      // Specify the paths' destination
+      // Specify the paths' destination 
       "dest": "index.js"
     }
   ]
