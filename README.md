@@ -1,0 +1,1 @@
+This is a project for getting started with APIs. It's also part of a cyber security camp for highschool age campers. Cool huh?
